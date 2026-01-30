@@ -112,6 +112,53 @@ nav a:hover {
   .hero .left h3 { font-size: 32px; }
 }
 
+/* ===== CV / EXPERIENCES ===== */
+
+.page-title {
+  margin-bottom: 40px;
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* Bloc expérience */
+.experience {
+  margin-top: 25px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.experience:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+.experience h3 {
+  margin: 0;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+/* Sous-titre (dates / poste) */
+.subtitle {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* Listes dans les expériences */
+.experience ul {
+  margin-top: 10px;
+}
+
+.experience li {
+  margin-bottom: 6px;
+  color: var(--text-muted);
+}
+
 /* ===== CARD ===== */
 .card {
   background: var(--card);
