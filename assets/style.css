@@ -294,60 +294,57 @@ nav a:hover {
 
 
 /* --- PROJET --- */
-.projets {
-  max-width: 1000px;
-  margin: 4rem auto;
-  padding: 0 1rem;
-}
-
-.projets h1 {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.projets .intro {
-  text-align: center;
-  margin-bottom: 3rem;
-  color: #555;
-}
-
-.projet {
-  background: #f9f9f9;
-  padding: 2rem;
-  margin-bottom: 3rem;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
-}
-
-.projet h2 {
-  margin-bottom: 1rem;
-  color: #2f6f4e;
-}
-
-.projet p {
-  margin-bottom: 0.8rem;
-  line-height: 1.6;
-}
-
-.galerie {
+.grille-projets {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1rem;
-  margin: 1.5rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
 }
 
-.galerie img {
-  width: 100%;
-  border-radius: 8px;
+.projet-card {
+  background: #f5f7f6;
+  border-radius: 10px;
+  padding: 1.2rem;
 }
 
-.liens a {
-  display: inline-block;
-  margin-right: 1rem;
-  text-decoration: none;
+.projet-card summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.projet-card summary::-webkit-details-marker {
+  display: none;
+}
+
+.projet-card h2 {
+  font-size: 1.1rem;
   color: #2f6f4e;
-  font-weight: 500;
+  margin-bottom: 0.3rem;
 }
+
+.objectif {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.techno {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.3rem;
+}
+
+.details-projet {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.details-projet p {
+  margin-bottom: 0.6rem;
+}
+
+details[open] {
+  background: #eef3f0;
+}
+
 
 
 /* --- MODAL --- */
