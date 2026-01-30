@@ -279,6 +279,31 @@ nav a:hover {
   padding: 20px;
 }
 
+/* ===== SKILLS V2 ===== */
+
+.skills-category {
+  margin: 50px 0 20px;
+  color: var(--accent);
+  font-size: 1.4rem;
+}
+
+.skill-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.skill-header i {
+  font-size: 28px;
+  color: var(--accent);
+}
+
+.skill-card p {
+  font-size: 0.9rem;
+  margin-top: 10px;
+  color: var(--text-muted);
+}
+
 /* ===== Veille technologique ===== */
 
 .veille {
